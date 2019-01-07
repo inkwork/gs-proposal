@@ -108,7 +108,7 @@ show(p)
 
 
 
-  <div class="bk-root" id="81a2aaea-f301-4492-8ac5-e91cf98d856e" data-root-id="1002"></div>
+  <div class="bk-root" id="a4ccc2b6-1b18-4159-9d62-1878ebe8807c" data-root-id="1002"></div>
 
 
 
@@ -134,7 +134,7 @@ show(plot)
 
 
 
-  <div class="bk-root" id="5741c9fe-681b-4e80-ad36-388bca840492" data-root-id="1104"></div>
+  <div class="bk-root" id="a9274e12-1441-49c8-93ff-bee43e192512" data-root-id="1104"></div>
 
 
 
@@ -165,6 +165,28 @@ c396812 - Sun Jun 3 21:26:07 2018 -0400, 6 days ago : updated optimized images
 
 - new glyph 1 with image at commit SHA1 hash
 - new glyph 2 with image at commit SHA1 hash
+
+
+
+```python
+from IPython.display import IFrame
+IFrame("./pdf/test.pdf", width=600, height=300)
+```
+
+
+
+
+
+<iframe
+    width="600"
+    height="300"
+    src="./pdf/test.pdf"
+    frameborder="0"
+    allowfullscreen
+></iframe>
+        
+
+
 
 ### Modified
 
