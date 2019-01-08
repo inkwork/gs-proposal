@@ -34,9 +34,9 @@ output_notebook()
 
 
 
-# Google Sans [Localization]
+# Generic Sans [Localization]
 
-**Scope**: [localized version] extension of the Google Sans typeface
+**Scope**: [localized version] extension of the Generic Sans typeface
 
 **Phase**: Planning, Design, Engineering, Release
 
@@ -203,7 +203,7 @@ IFrame("./pdf/test.pdf", width=600, height=300)
 
 ### Design QA
 
-[Feedback from external audits/Google teams/etc]
+[Feedback from external audits/Firm teams/etc]
 
 ### Technical/Engineering QA
 
@@ -216,12 +216,12 @@ IFrame("./pdf/test.pdf", width=600, height=300)
 
 ## Communication and Decisions
 
-### To Google Comms
+### To Firm Comms
 
 - [X] CS to DC - this, OK'd by DC
 - [X] CS to XX - that, OK'd by XX
 
-### From Google Comms
+### From Firm Comms
 
 - [X] DC to EE - this, OK'd by EE
 - [X] DC to FF - that, OK'd by FF
