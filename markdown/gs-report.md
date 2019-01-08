@@ -61,7 +61,28 @@ output_notebook()
 
 **Associated Documentation**: [URL]
 
-[INSERT GANTT CHART FOR MILESTONE HERE]
+
+
+
+```python
+from IPython.display import IFrame
+IFrame("./pdf/gantt.pdf", width=900, height=400)
+```
+
+
+
+
+
+        <iframe
+            width="900"
+            height="400"
+            src="./pdf/gantt.pdf"
+            frameborder="0"
+            allowfullscreen
+        ></iframe>
+        
+
+
 
 **Begin Date**: 12/1/00
 
@@ -86,8 +107,6 @@ output_notebook()
 
 **Estimated Start Date**: 2/2/01
 
-
-
 ## Work Effort
 
 
@@ -108,7 +127,7 @@ show(p)
 
 
 
-  <div class="bk-root" id="a4ccc2b6-1b18-4159-9d62-1878ebe8807c" data-root-id="1002"></div>
+  <div class="bk-root" id="3ca06f75-9823-4cde-943d-c1114a94e47a" data-root-id="1002"></div>
 
 
 
@@ -134,7 +153,7 @@ show(plot)
 
 
 
-  <div class="bk-root" id="a9274e12-1441-49c8-93ff-bee43e192512" data-root-id="1104"></div>
+  <div class="bk-root" id="44e5b0ef-7808-4fc3-89a1-a06ba0158df1" data-root-id="1464"></div>
 
 
 
@@ -147,15 +166,15 @@ show(plot)
 
 
 ```
-84ebd94 - Thu Jun 7 09:51:05 2018 -0400, 2 days ago : [README.md] updated new bug reporting URL
-cdf4a0d - Sun Jun 3 22:10:58 2018 -0400, 6 days ago : added link to crunch executable upgrade shell script gist
+84ebd94 - Thu Jun 7 09:51:05 2018 -0400, 2 days ago : [README.md] updated build documentation
+cdf4a0d - Sun Jun 3 22:10:58 2018 -0400, 6 days ago : added uXXXX
 fc885d6 - Sun Jun 3 22:05:34 2018 -0400, 6 days ago : Merge branch 'dev' into master-merge
-4030331 - Sun Jun 3 21:59:28 2018 -0400, 6 days ago : added upgrade documentation
-e8084b4 - Sun Jun 3 21:44:50 2018 -0400, 6 days ago : macOS GUI installer v3.0.0
-139284e - Sun Jun 3 21:44:27 2018 -0400, 6 days ago : crunch executable v3.0.0
-e2d8dab - Sun Jun 3 21:44:13 2018 -0400, 6 days ago : macOS GUI v3.0.0
-1b3142e - Sun Jun 3 21:39:45 2018 -0400, 6 days ago : fixed test with new image size
-c396812 - Sun Jun 3 21:26:07 2018 -0400, 6 days ago : updated optimized images
+4030331 - Sun Jun 3 21:59:28 2018 -0400, 6 days ago : added uXXXX
+e8084b4 - Sun Jun 3 21:44:50 2018 -0400, 6 days ago : modified uXXXX with this
+139284e - Sun Jun 3 21:44:27 2018 -0400, 6 days ago : modified uXXXX with that
+e2d8dab - Sun Jun 3 21:44:13 2018 -0400, 6 days ago : added uXXXX, uXXXX, uXXXX
+1b3142e - Sun Jun 3 21:39:45 2018 -0400, 6 days ago : fixed descender on uXXXX
+c396812 - Sun Jun 3 21:26:07 2018 -0400, 6 days ago : changed style of uXXXX to that
 
 ```
 
@@ -177,13 +196,13 @@ IFrame("./pdf/test.pdf", width=600, height=300)
 
 
 
-<iframe
-    width="600"
-    height="300"
-    src="./pdf/test.pdf"
-    frameborder="0"
-    allowfullscreen
-></iframe>
+        <iframe
+            width="600"
+            height="300"
+            src="./pdf/test.pdf"
+            frameborder="0"
+            allowfullscreen
+        ></iframe>
         
 
 
