@@ -26,5 +26,12 @@ for glyph in font.glyphs:
     glyph_name = glyph.name
     # list of strings
     glyph_unicode = glyph.unicode
+    # date / time formatted as 2019-01-18 15:04:57 if present
+    # None if no edits have been made to the glyph
+    glyph_changetime = glyph.lastChange
 
-    print("{} - {} - {}".format(glyph_name, glyph_unicode, glyph_color))
+    print(
+        "{} - {} - {} - {}".format(
+            glyph_name, glyph_unicode, glyph_color, glyph_changetime
+        )
+    )
