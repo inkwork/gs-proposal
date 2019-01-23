@@ -2,6 +2,9 @@
 <glyph name="A" format="1">
   <advance width="600"/>
   <unicode hex="0041"/>
+    <note>
+This is a note in A_.glif of NoHighlight.ufo
+  </note>
   <outline>
   </outline>
 </glyph>
