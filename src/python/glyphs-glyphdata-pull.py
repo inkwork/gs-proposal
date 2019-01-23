@@ -3,8 +3,7 @@
 
 #
 # This script demonstrates how to iterate through glyphs in a GlyphsApp *.glyphs source file
-# and parse glyph-specific color metadata that is used to highlight the glyph in font
-# editors
+# and parse glyph-specific metadata
 #
 # Dependencies for this script can be installed with:
 #
