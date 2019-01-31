@@ -1,19 +1,38 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-#
-# This script demonstrates how to iterate through glyphs in a GlyphsApp *.glyphs source file
-# and parse glyph-specific metadata
+# Copyright 2019 Google, LLC
+
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+
+#     http://www.apache.org/licenses/LICENSE-2.0
+
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# -----------------------------------------------------------------------------------------
+# This script demonstrates how to iterate through glyphs in a GlyphsApp
+# *.glyphs source file and parse glyph-specific color highlighting data,
+# then map the color to definitions that are defined in a separate newline-
+# delimited definitions file that uses a `KEY:VALUE` definition format
 #
 # Dependencies for this script can be installed with:
 #
 #    $ pip3 install --upgrade glyphsLib
 #
+# ------------------------------------------------------------------------------------------
+
 import os
 import sys
 from enum import Enum
 
 from glyphsLib import GSFont
+
 
 SOURCE_PATH = "../glyphs_source/GenericSans-MultiHighlight.glyphs"
 KEY_PATH = "colordefs.txt"
