@@ -1,0 +1,15 @@
+
+# Comment line
+RED:Status 1
+ORANGE: Status 2
+BROWN : Status 3
+YELLOW: Status 4
+LTGREEN: Status 5
+DKGREEN: Status 6
+LTBLUE: Status 7
+DKBLUE: Status 8
+PURPLE: Status 9
+PINK: Status 10
+LTGREY: Status 11
+DKGREY: Status 12
+WHITE: Done
