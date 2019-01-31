@@ -408,21 +408,10 @@ unicode = 006B;
 },
 {
 glyphname = l;
-lastChange = "2019-01-30 21:18:42 +0000";
+lastChange = "2019-01-31 02:30:04 +0000";
 layers = (
 {
 layerId = "89D8B1C5-CC36-4090-B305-FC383B193716";
-paths = (
-{
-closed = 1;
-nodes = (
-"219 1 LINE",
-"383 1 LINE",
-"383 641 LINE",
-"219 641 LINE"
-);
-}
-);
 width = 600;
 }
 );
